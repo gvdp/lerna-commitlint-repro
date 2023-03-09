@@ -1,0 +1,17 @@
+{
+  "name": "lerna-commitlint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "17.4.4",
+    "@commitlint/config-lerna-scopes": "17.4.2",
+    "husky": "8.0.3",
+    "lerna": "6.5.1"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-lerna-scopes"
+    ]
+  }
+}
